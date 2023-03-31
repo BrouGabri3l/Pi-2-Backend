@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabriel/PiBackend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj": {}
+    "/home/novahaus/Pi-2-Backend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj": {}
   },
   "projects": {
-    "/home/gabriel/PiBackend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj": {
+    "/home/novahaus/Pi-2-Backend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabriel/PiBackend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj",
+        "projectUniqueName": "/home/novahaus/Pi-2-Backend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj",
         "projectName": "PiBackend.Api.Site",
-        "projectPath": "/home/gabriel/PiBackend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj",
-        "packagesPath": "/home/gabriel/.nuget/packages/",
-        "outputPath": "/home/gabriel/PiBackend/source/PiBackend.Api.Site/obj/",
+        "projectPath": "/home/novahaus/Pi-2-Backend/source/PiBackend.Api.Site/PiBackend.Api.Site.csproj",
+        "packagesPath": "/home/novahaus/.nuget/packages/",
+        "outputPath": "/home/novahaus/Pi-2-Backend/source/PiBackend.Api.Site/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+          "/home/novahaus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,16 +35,21 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
         }
       }
     }
