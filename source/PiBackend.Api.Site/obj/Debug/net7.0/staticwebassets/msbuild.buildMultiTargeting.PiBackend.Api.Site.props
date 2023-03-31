@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/PiBackend.Api.Site.props" />
+</Project>

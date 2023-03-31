@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "M5B46ODaJ8wQsbTYHxgcft1lDeFiJsAvi4z+w4O1VKk=",
+  "Source": "PiBackend.Api.Site",
+  "BasePath": "_content/PiBackend.Api.Site",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

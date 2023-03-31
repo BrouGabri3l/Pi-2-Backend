@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Api", "source\PiBackend.Api\PiBackend.Api.csproj", "{23E4D63D-2B32-49A6-AD21-C927F73F5D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Api.Site", "source\PiBackend.Api.Site\PiBackend.Api.Site.csproj", "{E6DB2F89-42BB-46EB-8F32-98959AA988BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Core", "source\PiBackend.Core\PiBackend.Core.csproj", "{13FFC248-7133-4FFC-9D26-AC51472117FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Domain", "source\PiBackend.Domain\PiBackend.Domain.csproj", "{475496A0-B789-4D23-9EEE-FCE09EFBFE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Infraestructure", "source\PiBackend.Infraestructure\PiBackend.Infraestructure.csproj", "{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiBackend.Infraestructure.IoC", "source\PiBackend.Infraestructure.IoC\PiBackend.Infraestructure.IoC.csproj", "{9978ACD9-1BED-4E4A-9F1B-8390886D333D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E4D63D-2B32-49A6-AD21-C927F73F5D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E4D63D-2B32-49A6-AD21-C927F73F5D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E4D63D-2B32-49A6-AD21-C927F73F5D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E4D63D-2B32-49A6-AD21-C927F73F5D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DB2F89-42BB-46EB-8F32-98959AA988BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DB2F89-42BB-46EB-8F32-98959AA988BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DB2F89-42BB-46EB-8F32-98959AA988BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DB2F89-42BB-46EB-8F32-98959AA988BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FFC248-7133-4FFC-9D26-AC51472117FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FFC248-7133-4FFC-9D26-AC51472117FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FFC248-7133-4FFC-9D26-AC51472117FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FFC248-7133-4FFC-9D26-AC51472117FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475496A0-B789-4D23-9EEE-FCE09EFBFE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475496A0-B789-4D23-9EEE-FCE09EFBFE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475496A0-B789-4D23-9EEE-FCE09EFBFE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475496A0-B789-4D23-9EEE-FCE09EFBFE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9978ACD9-1BED-4E4A-9F1B-8390886D333D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9978ACD9-1BED-4E4A-9F1B-8390886D333D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9978ACD9-1BED-4E4A-9F1B-8390886D333D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9978ACD9-1BED-4E4A-9F1B-8390886D333D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23E4D63D-2B32-49A6-AD21-C927F73F5D92} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+		{E6DB2F89-42BB-46EB-8F32-98959AA988BA} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+		{13FFC248-7133-4FFC-9D26-AC51472117FE} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+		{475496A0-B789-4D23-9EEE-FCE09EFBFE4B} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+		{32C1C0D0-77AD-4B5C-A7EF-D4DBB7FE6852} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+		{9978ACD9-1BED-4E4A-9F1B-8390886D333D} = {C1BAECC5-FCA8-4E5E-BFE3-1BF25FF484B4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/PiBackend.Api.Site.props" />
+</Project>
